@@ -49,3 +49,20 @@ spring:
  # FILE UPLOAD DIR     
 upload:
   path: E:\javaprojects\AIGL-28-08-2023\FileService\src\main\resources\static\
+
+
+#  CORS POLICY CONFIGURATION
+#  Note :- add the origins sepereated by ,
+cors:
+  allowed_origins:
+    admin: http://localhost:4500
+    
+    user:
+  
+    portal_officer: http://localhost:4200 
+    
+    verification_officer:
+    
+    emergency_officer:
+    
+    api_doc_user:
