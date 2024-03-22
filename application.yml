@@ -29,7 +29,7 @@ secret:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: Java@2023
+    password: Java@202334
     username: root
   jpa:
     hibernate:
@@ -48,5 +48,5 @@ spring:
 
  # FILE UPLOAD DIR     
 upload:
-  path: E:\javaprojects\AIGL-28-08-2023\FileService\src\main\resources\static\
+  path: E:\javaprojects\AIGL-28-08-2023\FileService\src\main\resources\static
 
